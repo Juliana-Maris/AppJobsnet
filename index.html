@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>jobsnetcadastro</title>
+</head>
+<body>
+    <header>
+        <div class="title">
+          <h1>JobsNet</h1>
+          <br>
+          <h4>Cadastre-se no maior banco de talentos da internet!</h4>
+        </div>
+    </header>
+    <main>
+        <form action="" class="form" method="POST">
+            <div class="cargo">
+                <h5>Formulário de Cadastro</h5>
+                <br>
+                <label for="">Cargo Pretendido:</label>
+                <input type="text" id="cargo" size="40"> 
+                <br>
+            </div>
+            <section class="dados">
+                <div class="Linha1">
+                    <h5>DADOS PESSOAIS:</h5>
+                    <br>
+                    <label for="">Nome:</label>
+                    <input type="text" id="nome" size="50" required>
+                    <label for="">Profissão:</label>
+                    <input type="text" id="profi" size="30" required>
+                </div>
+                <br>
+                <div class="Linha2">
+                    <label for="">Data de Nascimento:</label>
+                    <input type="date" id="nasc" required>                
+                    <label for="">Estado Civil:</label>
+                    <select id="civil" name="civil">
+                        <option value="" selected></option>
+                        <option value="casado">Casado</option>
+                        <option value="solteiro">Solteiro</option>
+                        <option value="divorciado">Divorciado</option>
+                        <option value="viuvo">Viúvo</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                    <label for="">Sexo:</label>
+                    <select name="sexo" id="sexo">
+                    <option value="" selected></option>
+                    <option value="feminino">Feminino</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="outro">Outro</option>
+                    </select>
+                    
+                </div>
+                <br>
+                <div class="Linha3">
+                    <label for="">CEP:</label>
+                    <input type="text" id="cep" required>
+                    <label for="">Rua:</label>
+                    <input type="text" id="rua" size="45" required>
+                    <label for="">Número:</label>
+                    <input type="text" id="num" size="10" required>
+                </div>
+                <br>
+                <div class="Linha4">
+                    <label for="">Bairro:</label>
+                    <input type="text" id="bairro" size="25" required>
+                    <label for="">Cidade:</label>
+                    <input type="text" id="cidade" size="25" required>
+                    <label for="">Estado:</label>
+                    <input type="text" id="estado" size="20" required>
+                    
+                </div>
+                <br>
+                <div class="Linha5">
+                    <h5>DADOS DE CONTATO:</h5>
+                    <br>
+                    <label for="">Seu email:</label>
+                    <input type="email" size="30" id="email" required>
+                    <label for="">Telefone:</label>
+                    <input type="text" id="fone" size="20">
+                    <label for="">Celular:</label>
+                    <input type="text" size="20" id="celular" required>
+                </div>
+                <br>
+                <div class="Linha6">
+                    <h5>DOCUMENTOS PESSOAIS:</h5>
+                    <br>
+                    <label for="">Identidade:</label>
+                    <input type="text" size="27" id="ident" required>
+                    <label for="">CPF:</label>
+                    <input type="text" size="25" id="cpf" required>
+                </div>
+                <br>
+                <div class="Linha7">
+                    <label for="">Possui habilitação?</label>
+                    <select id="habilitação" name="habilitação">
+                        <option value="" selected></option>
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                    </select>
+                
+                    <label for="">Possui veículo próprio?</label>
+                    <select id="veiculo" name="veiculo">
+                        <option value="" selected></option>
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                    </select>
+                </div>
+                <br>
+            </section>
+            
+                <div class="Linha8">
+                    <label for="">Envie seu curriculo:  </label>
+                    <input type="file" name="" id="cv" required><br>
+                </div>
+                <br>
+                <div class="enviar">
+                    <button type="submit"> Enviar Formulário </button>
+                </div>
+        </form>
+        
+    </main>
+    <footer>
+        <br>
+        <ul>
+            <li><p><b> Dúvidas? Entre em contato conosco:</b></p></li>
+            <li>
+                <a target="_blank" href="malito:jobsnet@jobs.com"><b>Email</b></a>
+            </li>
+            <li>
+                <a target="_blank" href="https://www.linkedin.com/in/jobsnet/"><b>Linkedin</b></a>
+            </li>
+            <li>
+                <a target="_blank" href="https://wa.me/11999999999"><b>Whatsapp</b></a>
+            </li>
+        </ul>
+    </footer>
+    <br> 
+</body>
+</html>
